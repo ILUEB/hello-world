@@ -7,4 +7,9 @@ print (message) # this is whats getting printed
 # for messages that contain quotes themselves
 print ('She answered: Hi!"')
 print (len(message)) # length=len
+
+# the below is called slicing
 print (message [10]) # the first character is a 0, in the above there are only 0-10 positions to indicate
+print (message [0:5]) # this pulls the letter from 0 to 4, the first number is inclusive, the second is not!
+print (message [:5]) # it also works if you leave out the 0
+print (message [6:]) # this will get us the word world
