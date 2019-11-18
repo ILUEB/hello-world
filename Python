@@ -6,3 +6,5 @@ message = "hello world" # this is the variable
 print (message) # this is whats getting printed
 # for messages that contain quotes themselves
 print ('She answered: Hi!"')
+print (len(message)) # length=len
+print (message [10]) # the first character is a 0, in the above there are only 0-10 positions to indicate
