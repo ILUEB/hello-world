@@ -1,2 +1,8 @@
-print ('hello world') # this is a comment
+# print welcome message
+print ("hello world") 
 
+#all about strings
+message = "hello world" # this is the variable
+print (message) # this is whats getting printed
+# for messages that contain quotes themselves
+print ('She answered: Hi!"')
