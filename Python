@@ -1,8 +1,8 @@
 # print welcome message
-print ("hello world") 
+print ("Hello World") 
 
 #all about strings
-message = "hello world" # this is the variable
+message = "Hello World" # this is the variable
 print (message) # this is whats getting printed
 # for messages that contain quotes themselves
 print ('She answered: Hi!"')
@@ -13,3 +13,37 @@ print (message [10]) # the first character is a 0, in the above there are only 0
 print (message [0:5]) # this pulls the letter from 0 to 4, the first number is inclusive, the second is not!
 print (message [:5]) # it also works if you leave out the 0
 print (message [6:]) # this will get us the word world
+
+# a method is a function that belongs to an object
+
+print (message.lower()) # this will get us the message in lower case
+print (message.upper()) # this will get us the message in upper case
+
+print (message.count("l")) # this will get us the number of ls in the message
+print (message.find("World")) # this will get us the starting position of the word, in case the word does not exist it will print -1. 
+
+# It is case sensitive!!!
+
+message = message.replace("Hello", "Bye bye") # also works with new_message
+print (message) # in that case here it must say print (new_message)
+
+# combine strings to whole sentences, use variables
+greeting = "Hello"
+name = "Anika"
+print (greeting + ", " + name)
+# fomatted string
+message = "{}, {}! Welcome to coding!".format (greeting, name)
+print (message)
+
+# alternative (with newer Python versions) f-Strings:
+message = f"{greetings}, {name}! Welcome to coding!"
+print (message)
+
+# or even everything in upper case
+message = f"{greetings.upper()}, {name.upper()}! Welcome to coding!"
+print (message)
+
+# a little trick to find methods available and information about them
+print (dir(name))
+print(help(str))
+print(help(str.lower))
