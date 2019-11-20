@@ -56,3 +56,11 @@ print(help(str.lower))
 print("hello "+str(5))
 print(int("8")+5)
 print(float("8.5")+5)
+
+# Adding more than one string with variables
+a = "My name ist Miriam."
+b = "I live in China."
+c = " "
+d = a+c+b
+print (d)
+
