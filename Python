@@ -5,7 +5,7 @@ print ("Hello World")
 message = "Hello World" # this is the variable
 print (message) # this is whats getting printed
 # for messages that contain quotes themselves
-print ('She answered: Hi!"') # Or do a back slash before the real quotation mark \"
+print ('She answered: Hi!"') # Or do a back slash before the real quotation mark \", this is called an "escape character"
 print (len(message)) # length=len
 
 # the below is called slicing
