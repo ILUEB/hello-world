@@ -57,7 +57,7 @@ print("hello "+str(5))
 print(int("8")+5)
 print(float("8.5")+5)
 
-# Adding more than one string with variables
+# Adding more than one string with variables, this is called Concatenation
 a = "My name ist Miriam."
 b = "I live in China."
 c = " "
